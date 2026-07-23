@@ -1,0 +1,695 @@
+main {
+    position: relative;
+    min-height: 100vh;
+}
+
+/*--------------------------------- left panel ---------------------------------------*/
+
+.left-panel-resume {
+    background-color: #413f3f;
+    width: 300px;
+    position: absolute;
+    top: -180px;
+    bottom: 0px;
+    left: 100px;
+}
+
+#panel-photo img {
+    display: block;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+    left: 50px;
+}
+
+.left-panel-resume span {
+    font-style: italic;
+}
+
+#contact,
+#portfolio,
+#education,
+#skills {
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#resume-contacts td {
+    border: none;
+    font-size: smaller;
+}
+
+#contact {
+    margin-top: 50px;
+}
+
+#portfolio>a {
+    display: block;
+    margin: 10px 0;
+}
+
+#portfolio nav {
+    display: flex;
+    flex-direction: column;
+}
+
+nav a {
+    color: white;
+    justify-content: space-around;
+}
+
+nav>a:hover {
+    color: yellow;
+}
+
+#education {
+    margin: 0px 20px;
+}
+
+#skills {
+    margin: 5px 15px;
+}
+
+#skills>ul {
+    text-align: left;
+    padding-left: 20px;
+    width: 90%;
+}
+
+li {
+    margin: 20px 0px;
+}
+
+/*--------------------------------- right section ---------------------------------------*/
+/*--------------------------------- right section ---------------------------------------*/
+
+
+
+#date {
+    font-weight: bold;
+    font-style: italic;
+}
+
+header>h3 {
+    margin-top: 30px;
+}
+
+#certifications>h2 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    text-align: left;
+}
+
+th {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+
+#footer-resume {
+    clear: both;
+    z-index: 1;
+    position: relative;
+}
+
+
+
+/*--------------------------------- cover letter---------------------------------------*/
+/*--------------------------------- cover letter---------------------------------------*/
+/*--------------------------------- cover letter---------------------------------------*/
+/*--------------------------------- cover letter---------------------------------------*/
+
+
+
+.top-header-background {
+    padding: 50px 50px 50px 430px;
+    z-index: 1;
+}
+
+.top-header-background>h1 {
+    text-align: left;
+    position: relative;
+    left: 0;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    min-width: 300px;
+    margin-left: 430px;
+}
+
+.left-panel-cover {
+    background-color: #413f3f;
+    width: 300px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 100px;
+
+}
+#cover-contacts {
+    margin-top: 0px;
+}
+
+#cover-contacts td {
+    border: none;
+    font-size: smaller;
+}
+
+nav a {
+    margin: 10px;
+    text-decoration: none;
+}
+
+#current {
+    color: blue;
+}
+
+#current:hover {
+    color: yellow;
+}
+
+/*------------------------------- Right section -----------------------------------*/
+/*------------------------------- Right section -----------------------------------*/
+
+.right-main-letter {
+    flex-basis: 65%;
+    position: relative;
+    margin-top: 20px;
+}
+
+#introduction h2 {
+    margin-bottom: 10px;
+}
+
+#introduction p {
+    margin-top: 0px;
+}
+
+
+#cover-footer {
+    position: relative;
+    padding-left: 400px;
+}
+
+#letter-body {
+    padding-top: 5px;
+}
+
+#letter-body span {
+    font-style: italic;
+}
+
+/*--------------------------------- career goals---------------------------------------*/
+/*--------------------------------- career goals---------------------------------------*/
+/*--------------------------------- career goals---------------------------------------*/
+/*--------------------------------- career goals---------------------------------------*/
+
+
+
+#career-name,
+#date {
+    text-shadow:
+        0 0 10px rgba(255, 255, 255, 0.8),
+        0 0 20px rgba(180, 140, 255, 0.8);
+    color: white;
+}
+
+.goals-body > h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+.goals-body {
+    background: linear-gradient(135deg, #667eea, #764ba2, #43cea2);
+}
+
+.goals-body>section {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.left-panel-career {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    color: white;
+    border-radius: 15px;
+    width: 300px;
+    position: absolute;
+    top: -180px;
+    bottom: 37%;
+    left: 100px;
+    z-index: 2;
+    box-shadow:
+        0 0 20px rgba(255, 255, 255, 0.25),
+        0 0 40px rgba(102, 126, 234, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+    overflow: visible;
+}
+
+.left-panel-career h2 {
+        text-shadow:
+        0 0 10px rgba(255, 255, 255, 0.8),
+        0 0 20px rgba(180, 140, 255, 0.8);
+}
+
+#career-panel-photo img {
+    display: block;
+    width: 200px;
+    height: 200px;
+    border-radius: 25%;
+    position: relative;
+    left: 50px;
+    top: 20px;
+}
+
+.career-nav strong {
+    display: inline-block;
+    padding: 8px 15px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 2px;
+    transition: 0.3s;
+    border-color: white;
+}
+
+*.career-nav strong:hover {
+    color: #a5f3fc;
+    transform: scale(1.5);
+    box-shadow: 0 0 20px rgba(120, 200, 255, 0.7);
+}
+
+#current-career {
+    color: #86efac;
+    text-shadow:
+        0 0 10px rgba(255, 255, 255, 0.8),
+        0 0 20px rgba(180, 140, 255, 0.8);
+}
+
+#current-career:hover {
+    color: lightblue;
+}
+
+#career-contacts-panel {
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+#career-contacts {
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(12px);
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.2);
+    transition: 0.3s;
+}
+
+#career-contacts:hover {
+            transform: scale(1.2);
+    box-shadow: 0 0 20px rgba(120, 200, 255, 0.7);
+}
+
+#career-contacts td {
+    border: none;
+}
+
+#education-career {
+        color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 0px 5px;
+}
+
+#education-career header {
+    transition: 0.3s;
+}
+
+#education-career header:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 20px rgba(120, 200, 255, 0.7);
+}
+
+#my-skills>span {
+    display: inline-block;
+    padding: 8px 15px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 2px;
+    color: white;
+    transition: 0.3s;
+    border-color: white;
+}
+
+#my-skills>span:hover {
+    transform: scale(1.5);
+    box-shadow: 0 0 20px rgba(120, 200, 255, 0.7);
+
+}
+
+.right-section {
+    background: rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(12px);
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow:
+    0 0 30px rgba(255, 255, 255, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: #f5eaff;
+    width: 85%;
+}
+
+/*--------------------------------- right section---------------------------------------*/
+/*--------------------------------- right section---------------------------------------*/
+
+
+.right-section h2 {
+    text-shadow:
+        0 0 10px rgba(255, 255, 255, 0.8),
+        0 0 20px rgba(180, 140, 255, 0.8);
+}
+
+.magic-particles {
+    position: absolute;
+    inset: 0;
+    background-image:
+        radial-gradient(circle, white 2px, transparent 2px),
+        radial-gradient(circle, #d8b4fe 1px, transparent 1px);
+    background-size: 80px 80px, 120px 120px;
+    animation: floatMagic 15s linear infinite;
+    opacity: .4;
+    pointer-events: none;
+}
+
+@keyframes floatMagic {
+    from {
+        background-position: 0px 0px 0px 0px;
+    }
+
+    to {
+        background-position: 100px -200px, -100px -150px;
+    }
+}
+
+#about {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px 0;
+    border-left: 3px solid #d8b4fe;
+    transition: 0.3s;
+}
+
+.goals {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px 0;
+    border-left: 3px solid #d8b4fe;
+    transition: 0.3s;
+}
+
+#short-term li {
+    list-style-type: none;
+    position: relative;
+    padding-left: 25px;
+}
+
+#short-term li::before {
+    content: "✦";
+    position: absolute;
+    animation: pulse 2s infinite;
+    left: 0px;
+    color: white;
+}
+
+#long-term {
+    margin-top: 50px;
+}
+
+.goals:hover, #about:hover{
+        transform: scale(1.2);
+    box-shadow: 0 0 20px rgba(120, 200, 255, 0.7);
+}
+
+
+@keyframes pulse {
+
+    0% {
+        transform: scale(1);
+        opacity: 0.6;
+    }
+
+    50% {
+        transform: scale(1.5);
+        opacity: 1;
+        text-shadow: 0px 0px 10px #d8b4fe;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 0.6;
+    }
+
+}
+
+/* ---------------------------------CONTACT FORM----------------------------------- */
+/* ---------------------------------CONTACT FORM----------------------------------- */
+
+#contact-form {
+    margin-top: 50px;
+}
+
+fieldset {
+    color: white;
+    height: 100%;
+    border-color: #d8b4fe;
+    border-left: 3px solid #d8b4fe;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: 20px;
+    box-shadow: 0 0 25px rgba(120, 180, 255, 0.25);
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-areas:
+        "fullname company"
+        "email phone"
+        "message message"
+        "radio-buttons drop-down-list";
+            transition: 0.3s;
+}
+
+fieldset div {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(120, 200, 255, 0.7);
+}
+
+input {
+    background-color: rgb(230, 225, 225);
+    border-radius: 5px;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(200, 220, 255, 0.3);
+    color: #f5eaff;
+
+}
+
+input:focus {
+    outline-color: lightblue;
+
+    border: 1px solid #d8b4fe;
+    box-shadow:
+        0 0 10px #d8b4fe,
+        0 0 20px rgba(102, 126, 234, 0.6);
+    accent-color: #d8b4fe;
+    margin-right: 8px;
+    transition: 0.3s;
+
+}
+
+input:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(120, 200, 255, 0.7);
+}
+
+
+#message {
+    width: 100%;
+    height: 135px;
+    background-color: rgb(230, 225, 225);
+    border-radius: 5px;
+    border-color: rgb(118, 118, 118);
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    padding: 1px 0px;
+    border-width: 2px;
+    border-style: inset;
+    background: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(200, 220, 255, 0.3);
+    outline-color: lightblue;
+    transition: 0.3s;
+      color: #f5eaff;
+
+}
+
+#message:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(120, 200, 255, 0.7);
+
+}
+
+.message {
+    grid-area: message;
+}
+
+.fullname {
+    grid-area: fullname;
+}
+
+.company {
+    grid-area: company;
+}
+
+.email {
+    grid-area: email;
+}
+
+.phone {
+    grid-area: phone;
+}
+
+.radio-buttons {
+    grid-area: radio buttons;
+    background: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(200, 220, 255, 0.3);
+    border-radius: 5px;
+    margin-right: 15px;
+    margin-bottom: 25px;
+}
+
+.drop-down-list {
+    grid-area: drop-down-list;
+    margin-bottom: 25px;
+    background: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(200, 220, 255, 0.3);
+    border-radius: 5px;
+}
+
+#contact-method {
+    background: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(200, 220, 255, 0.3);
+    color: white;
+}
+
+button {
+    width: 50%;
+    position: relative;
+    margin-top: 15px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(200, 220, 255, 0.3);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(120, 200, 255, 0.7);
+}
+
+input[type="radio"] {
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    border: 2x solid #d8b4fe;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    vertical-align: middle;
+}
+
+input[type="radio"] {
+    border-color: #d8b4fe;
+    box-shadow: 0px 0px 10px rgba(216, 180, 254, 0.8);
+}
+
+input[type="radio"]:checked::before {
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background: #d8b4fe;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.media-section {
+    display: block;
+    margin: 40px;
+    padding: 20px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 15px;
+    backdrop-filter: blur(8px);
+    color: white;
+}
+
+#mp4 {
+    margin-top: 50px;
+    border-radius: 10px;
+    z-index: 0;
+    cursor: pointer;
+}
+
+#mp4 video {
+    width: 300px;
+    height: 200px'
+}
+
+#career-footer {
+    text-shadow:
+        0 0 10px rgba(255, 255, 255, 0.8),
+        0 0 20px rgba(180, 140, 255, 0.8);
+    color: white;
+}

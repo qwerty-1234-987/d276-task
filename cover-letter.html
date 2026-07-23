@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, inital-scale=1.0">
+    <title>Cover Letter</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body style="font-family: Arial, Helvetica, sans-serif;">
+    <header>
+        <div class="top-header-background" style="background-image: url(images/fcccc4.png);">
+            <h1><em>Isabella Moretti</em></h1>
+            </div>
+    </header>
+    <main>
+        <div class="flex-container">
+        <div class="left-panel-cover">
+            <section id="panel-photo">
+                <img src="images/headshot.jpg">
+            </section>
+            <section id="contact">
+                <h2 style="font-size: 25px;">Contacts:</h2>
+                <table id="cover-contacts">
+                    <tr>
+                    <td>Email: </td>
+                    <td>isabella.moretti@email.com</td>
+                    </tr>
+                    <tr>
+                        <td>Phone: </td>
+                <td>(512) 987-6543</td>
+                </tr>
+                <tr>
+                    <td>Location: </td>
+                <td>Austin, TX</td>
+                </tr>
+                </table>
+                <p>___________________________</p>
+            </section>
+            <section id="portfolio">
+            <p style="font-size: 25px;">Portfolio:</p>
+                <nav>
+                <a href="cover-letter.html" id="current"><strong>Cover letter</strong></a>
+                <a href="index.html"><strong>Resume</strong></a>
+                <a href="career-goals.html"><strong>Career goals</strong></a>
+                <p>___________________________</p>
+                </nav>
+            </section>
+        </div>
+        <div class="right-main-letter">
+            <div id="date" style="color: black"></div>
+    <article>
+        <div class="letter">
+            <section id="introduction">
+                <h2>Hiring Manager</h2>
+                <p>Bella Cucina Artisan Kitchen</p>
+            </section>
+            <section id="letter-body">
+                <p>Dear Hiring Manager,<p>
+
+<p>I am excited to apply for the Pastry Chef position at Bella Cucina Artisan Kitchen. With a deep passion for culinary artistry and several years of hands-on experience in both professional kitchens and artisan bakeries, I bring a strong blend of <span>culinary creativity</span>, <span>precision</span>, and <span>dedication</span> to every dish I prepare.</p>
+<p>Throughout my career, I have developed a strong foundation in both <mark>savory and pastry techniques</mark>, with a particular focus on <mark>fresh ingredients</mark>, seasonal menus, and visually appealing presentation. My experience working in fast-paced kitchen environments has strengthened my ability to <mark>manage time effectively</mark>, collaborate with team members, and maintain high standards of cleanliness and organization. Whether preparing intricate desserts or contributing to full-service dining, I take pride in delivering consistent, high-quality results.</p>
+<p>I am especially drawn to Bella Cucina Artisan Kitchen because of its commitment to quality and innovation. I admire your emphasis on <span>locally sourced ingredients</span> and modern Italian cuisine, and I would be excited to contribute my skills in a setting that values both tradition and creativity.</p>
+<p>In addition to my technical skills, I bring a <span>strong work ethic</span> and a genuine enthusiasm for learning and growing within the culinary field. I am always eager to take on new challenges, refine my techniques, and contribute positively to the team environment.</p>
+<p>Thank you for your time and consideration. I would welcome the opportunity to further discuss how my background and passion align with your team’s goals.
+
+<p>Sincerely,<br>
+Isabella Moretti</p>
+            </section>
+        </div>
+    </article>
+        </div>
+        </div>
+    </main>
+    <footer id="cover-footer">
+        <hr>
+        <p>
+            <sup>&copy;</sup> Isabella Moretti<br>
+            4827 Maplewood Drive<br>
+            Austin, TX &nbsp;78704<br>
+            (512) 987-6543
+        </p>
+    </footer>
+        <script>
+        const today = new Date();
+        const formattedDate = today.toLocaleDateString();
+        document.getElementById("date").textContent = formattedDate;
+        console.log("Today's date");
+    </script>
+</body>
+</html>
